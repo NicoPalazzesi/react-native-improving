@@ -7,8 +7,8 @@ import { useTheme } from "../../hooks";
 import styles from "./styles";
 
 const Dashboard = () => {
-  const [integer, setInteger] = useState('-');
-  const [binary, setBinary] = useState('');
+  const [integer, setInteger] = useState('');
+  const [binary, setBinary] = useState('-');
   const [numberOfGaps, setNumberOfGaps] = useState(0);
 
   const {themeStyles} = useTheme()
